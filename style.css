@@ -1,0 +1,54 @@
+
+.carouselIMG {
+    height: 675px;
+}
+
+.carousel-caption > h5 {
+    margin-top: -500px;
+}
+
+.dragon.bg-gradient{
+    background-color:peru;
+}
+
+.fight.bg-gradient {
+    background-color:khaki;
+}
+
+.d-flex.flex-row{
+    background-color: rgb(42, 41, 41);
+    width: 407px;
+    margin-left: -16px;
+    margin-bottom: -15px;
+}
+
+.card-title.ms-3.ps-4 {
+    color: goldenrod
+}
+
+.card-title.ms-3 {
+    color: whitesmoke;
+}
+
+.fairy.bg-gradient{
+    background-color: palevioletred;
+}
+
+.poison.bg-gradient {
+    background-color:deeppink;
+
+}
+
+.ghost.bg-gradient{
+    background-color: rgb(36, 4, 45);
+}
+
+.normal.bg-gradient {
+    background-color:darkcyan;
+
+}
+
+.pokedexLogo {
+    width: 150px;
+    height: 50px;
+}
