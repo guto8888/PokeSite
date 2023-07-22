@@ -104,12 +104,12 @@ function creatHtml(pokeInfo){
      
             addClass(div, divColor, "card", "me-2", "mb-2", "bg-gradient")  
             addClass(h1, "card-title", "ms-3")
-            addClass(h3, "pe-2", "ms-3", "ps-4", "card-title")
+            addClass(h3, "numText", "card-title")
             addClass(li1, "list-group-item", liColor, "font-monospace")
             addClass(li2, liColor, "list-group-item", "font-monospace")
             addClass(li3, liColor, "mb-3", "font-monospace", "list-group-item")
             addClass(ul, "list-group", "mb-4", "list-group-flush")
-            addClass(img, "mt-3", "rounded-circle", "ms-2", "card-img-top", "bg-body-tertiary")
+            addClass(img, "mt-3", "ms-2", "card-img-top")
             addClass(p, "mb-0", pColor, "pOfSkill")
             addClass(div2, "card-body")
             addClass(div3, "d-flex", "flex-row")
@@ -120,7 +120,7 @@ function creatHtml(pokeInfo){
             li1.innerText = moves[0].move.name
             li2.innerText = moves[1]?.move.name
             li3.innerText = moves[2]?.move.name
-            img.src = sprites.front_default
+            img.src = sprites.other.dream_world.front_default
             img.style = "width: 15rem"
             p.innerText = "Principais Habilidades: "
 

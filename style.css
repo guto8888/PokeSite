@@ -1,3 +1,7 @@
+img {
+    width: 240px;
+    height: 230px;
+}
 
 .carouselIMG {
     height: 675px;
@@ -19,10 +23,12 @@
     background-color: rgb(42, 41, 41);
     width: 407px;
     margin-left: -16px;
+    display: flex;
+    justify-content: center;
     margin-bottom: -15px;
 }
 
-.card-title.ms-3.ps-4 {
+.numText.card-title {
     color: goldenrod
 }
 
@@ -51,4 +57,14 @@
 .pokedexLogo {
     width: 150px;
     height: 50px;
+}
+
+a.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+a.nav-link:hover{
+    font-size: 20px;
+    transition: 500ms;
+    cursor: url(./src/cursor/Pokeball\ Cursor.cur), default;
 }
