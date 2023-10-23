@@ -76,6 +76,7 @@ a.nav-link{
 a.nav-link:hover{
     font-size: 20px;
     transition: 500ms;
+    cursor: url(/src/cursor/Pokeball\ Cursor.cur), default;
 }
 
 .carousel-item img {
